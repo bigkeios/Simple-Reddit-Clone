@@ -5,6 +5,7 @@
       <div class="form-group">
         <label for="#titleInput">Title: </label>
         <input type="text" id="titleInput" #title placeholder="Title" class="form-control">
+        <!-- # to indicate the variable that this will be turned into (to pass it to the function) -->
       </div>
       <!-- end form-group -->
       <div class="form-group">
@@ -13,5 +14,7 @@
       </div>
       <!-- end form-group -->
       <input type="submit" value="Submit" class="btn btn-default pull-right" id="submitLink" (click) = "addArticle(title, link)">
+      <!-- () -> bind an event with the function to handle it -->
     </form>
+    <app-article> Loading... </app-article>
 </div>
