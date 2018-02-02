@@ -1,0 +1,8 @@
+.container
+{
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    background-color: rgb(232, 250, 250);
+    padding-bottom: 1%;
+}
