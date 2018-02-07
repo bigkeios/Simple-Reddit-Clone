@@ -1,7 +1,7 @@
   <div class="row">
     <div class="col-sm-2">
       <div class="thumbnail">
-        <a href={{article.link}}>
+        <a href={{article.domain()}}>
           <h1>{{article.votes}}</h1>
           <h2>Points</h2>
         </a>
@@ -11,7 +11,7 @@
     <!-- end col-5 -->
     <div class="col-sm-10">
       <div class="submit-content">
-        <a href={{article.link}}><h1>{{article.title}}</h1></a>
+        <a href={{article.domain()}}><h1>{{article.title}}</h1></a>
         <small>{{article.link}}</small>
         <ul style="list-style-type: none" class="up-down-vote">
           <li><a href="#" (click) = "article.voteUp()"><span class="glyphicon glyphicon-arrow-up"></span>upvote</a></li>
