@@ -1,0 +1,23 @@
+.thumbnail
+{
+    text-align: center;
+    background-color: lightgray;
+}
+.up-down-vote
+{
+    padding: 0;
+}
+.up-down-vote li
+{
+    float: left;
+    margin-left: 3px;
+}
+.submit-content h1
+{
+    margin-bottom: 0;
+}
+.submit-content a
+{
+    margin-bottom: 3px;
+}
+
