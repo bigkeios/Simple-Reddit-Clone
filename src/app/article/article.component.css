@@ -3,6 +3,10 @@
     text-align: center;
     background-color: lightgray;
 }
+.thumbnail a
+{
+    color: black;
+}
 .up-down-vote
 {
     padding: 0;

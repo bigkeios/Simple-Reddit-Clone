@@ -8,6 +8,14 @@ export class Article
     {
         this.link = link;
         this.title = title;
-        this.votes = vote;
+        this.votes = vote || 0;
+    }
+    voteUp()
+    {
+        this.votes += 1;
+    }
+    voteDown()
+    {
+        this.votes -= 1;
     }
 }

@@ -16,5 +16,5 @@
       <input type="submit" value="Submit" class="btn btn-default pull-right" id="submitLink" (click) = "addArticle(title, link)">
       <!-- () -> bind an event with the function to handle it -->
     </form>
-    <app-article> Loading... </app-article>
+    <app-article *ngFor="let article of articles" [article] = "article"> </app-article>
 </div>
